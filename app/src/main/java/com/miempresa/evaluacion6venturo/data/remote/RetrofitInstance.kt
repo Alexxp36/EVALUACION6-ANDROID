@@ -9,9 +9,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitInstance {
 
     // URL base de la API
-    // Nota: Esta URL usa MockAPI.io como servicio de API simulada
-    // Para producción, reemplaza con la URL real de la API de TECSUP
-    private const val BASE_URL = "https://67344eba5995834c8a933a36.mockapi.io/api/v1/"
+    // IMPORTANTE: Reemplaza esta URL con tu MockAPI personal
+    // 1. Ve a https://mockapi.io/ y crea una cuenta
+    // 2. Crea un recurso "cursos" con campos: id, nombre, docente, creditos, ciclo
+    // 3. Copia tu URL y pégala aquí
+    private const val BASE_URL = "TU_URL_MOCKAPI_AQUI"  // Ejemplo: "https://67344eba5995834c8a933a36.mockapi.io/api/v1/"
 
     /**
      * Instancia de Retrofit configurada con Gson como convertidor JSON
