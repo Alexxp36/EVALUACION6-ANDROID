@@ -9,7 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitInstance {
 
     // URL base de la API configurada con MockAPI
-    private const val BASE_URL = "https://6915526e84e8bd126af97ed7.mockapi.io/api/v1/"
+    // La URL completa será: BASE_URL + "cursos" = https://6915526e84e8bd126af97ed7.mockapi.io/cursos
+    private const val BASE_URL = "https://6915526e84e8bd126af97ed7.mockapi.io/"
 
     /**
      * Instancia de Retrofit configurada con Gson como convertidor JSON
